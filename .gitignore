@@ -1,0 +1,15 @@
+build
+target
+.gradle
+.idea
+.classpath
+.project
+.settings
+*.iml
+*.iws
+*.ipr
+/bin/
+*.log*
+/schema/
+*~
+src/main/generated-sources/

@@ -1,0 +1,13 @@
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <globalBindings>
+        <javaType name="java.time.LocalDateTime" xmlType="xs:dateTime"
+                  parseMethod="org.elkendev.jaxb.support.LocalDateTimeAdapter.parseDate"
+                  printMethod="org.elkendev.jaxb.support.LocalDateTimeAdapter.printDate"
+        />
+        <javaType name="java.time.LocalDateTime" xmlType="xs:date"
+                  parseMethod="org.elkendev.jaxb.support.LocalDateTimeAdapter.parseDate"
+                  printMethod="org.elkendev.jaxb.support.LocalDateTimeAdapter.printDate"
+        />
+    </globalBindings>
+</bindings>
