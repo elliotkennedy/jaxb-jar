@@ -1,4 +1,4 @@
-# Example Gradle + Jaxb + Maven Repo Publishing project
+# Example Gradle + Jaxb/xjc + Maven Repo Publishing project
 
 **Getting Started**
 
